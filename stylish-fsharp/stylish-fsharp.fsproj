@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="chapters\chapter8.fsx" />
     <None Include="chapters\chapter7.fsx" />
   </ItemGroup>
 
