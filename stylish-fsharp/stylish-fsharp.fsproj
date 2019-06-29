@@ -10,4 +10,8 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="chapters\chapter7.fsx" />
+  </ItemGroup>
+
 </Project>

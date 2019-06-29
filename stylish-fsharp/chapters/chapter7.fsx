@@ -26,3 +26,15 @@ let test =
           Time = DateTime.UtcNow})
 
 #time "off"
+
+(*
+    7.4 Modifying records
+    Start off with the struct record from Exercise 7-1. write a function called translate that takes a Position record 
+    and produces a new instance with the X, Y, and Z positions altered by specified amounts, but the Time value unchanged.
+*)
+
+let translate (x, y, z) p =
+    { p with 
+        X = p.X + x
+        Y = p.Y + y
+        Z = p.Z + z }
